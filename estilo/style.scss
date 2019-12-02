@@ -60,7 +60,6 @@ body{
                 text-align: center;
                 color: #F9F9F9;
                 border-radius: 8px;
-                padding: 10px;
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 15px;
                 &:hover{
@@ -110,4 +109,96 @@ body{
     &:hover{
         background: rgba(242, 137, 32, 0.5);
     }
+}
+@media screen and (max-width: 600px){
+    body{
+        header{
+            margin: 20px 0;
+            h1{
+                font-size: 50px;
+                letter-spacing: 15px;
+            }
+        }
+        main{
+            .ctngrande{
+                .contenedorresultados{
+                    margin: 15px 0;
+                    height: 30px;
+                    border-radius: 10px;
+                    background: #F28A20;
+                    p{
+                        text-align: center;
+                        line-height: 30px;
+                        color: #F9F9F9;
+                        font-family: "Komoda";
+                        font-size: 20px;
+                        letter-spacing: 10px;
+                    }
+                }
+                #btn{
+                    height: 35px;
+                    font-size: 13px;
+                    &:hover{
+                        background: #12121250;
+                    }
+                }
+            }
+            .info{
+                h3{
+                    font-size: 14px;
+                    letter-spacing: 7px;
+                    padding-bottom: 10px;
+                }
+                p{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    
+    .bordeH{
+        border-bottom: 5px solid #121212;
+    }
+    .bordeV{
+        border-left: 5px solid #121212;
+    }
+}
+@media screen and (max-width: 350px){
+    body{
+        header{
+            margin: 10px 0;
+            h1{
+                padding: 5px;
+                font-size: 30px;
+                letter-spacing: 10px;
+            }
+        }
+        main{
+            .ctngrande{
+                width: 184px;
+                .contenedor{
+                    border: 2px solid #121212;
+                }
+                .contenedorresultados{
+                    p{
+                        font-size: 16px;
+                        letter-spacing: 6px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .bordeH{
+        border-bottom: 2px solid #121212;
+    }
+    .bordeV{
+        border-left: 2px solid #121212;
+    }
+    .cuadro{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 30px;
+    } 
 }
