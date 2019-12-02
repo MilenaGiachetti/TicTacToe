@@ -163,7 +163,38 @@ body{
         border-left: 5px solid #121212;
     }
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 400px){
+    body{
+        main{
+            .ctngrande{
+                width: 214px;
+                .contenedor{
+                    border: 2px solid #121212;
+                }
+                .contenedorresultados{
+                    p{
+                        font-size: 16px;
+                        letter-spacing: 6px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .bordeH{
+        border-bottom: 2px solid #121212;
+    }
+    .bordeV{
+        border-left: 2px solid #121212;
+    }
+    .cuadro{
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 30px;
+    } 
+}
+@media screen and (max-width: 330px){
     body{
         header{
             margin: 10px 0;
