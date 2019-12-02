@@ -183,8 +183,9 @@ body main .info p {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
   body header {
+    background: red;
     margin: 10px 0;
   }
   body header h1 {
